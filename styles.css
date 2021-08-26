@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  background-color: azure;
+  height: 400px;
+  position: relative;
+  border-bottom: 3px dashed lightblue;
+}
+.pos-center {
+  background-color: rgb(184, 232, 255);
+  width: 350px;
+  /* height: 350px; */
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid rgba(25, 183, 236, 0.773);
+}
+.container form {
+  flex-grow: 1;
+  /* background-color: cadetblue; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container form input {
+  padding: 15px 10px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(125, 182, 236);
+}
+.btn {
+  background-color: rgb(33, 124, 241);
+  color: rgb(214, 214, 214);
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(58, 100, 114);
+}
+.btn-del {
+  background-color: rgb(241, 33, 33);
+  color: rgb(214, 214, 214);
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(58, 100, 114);
+}
+/* ----------------------------------- */
+.container2 {
+  width: 100%;
+  /* margin: 30px auto;
+  border-radius: 10px;
+  padding: 10px 20px; */
+}
+.container2 ul {
+  list-style-type: none;
+  /* background-color: rgb(184, 232, 255);
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 10px 20px; */
+}
+.container2 ul li {
+  background-color: rgb(184, 232, 255);
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
